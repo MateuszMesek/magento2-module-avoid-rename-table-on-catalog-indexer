@@ -1,0 +1,21 @@
+{
+    "name": "mateuszmesek-magento2/module-avoid-rename-table-on-catalog-indexer",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-catalog": "*",
+        "mateuszmesek-magento2/module-database-data-transfer": "^0.1"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MateuszMesek\\AvoidRenameTableOnCatalogIndexer\\": "src"
+        }
+    }
+}
